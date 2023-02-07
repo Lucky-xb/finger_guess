@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="1280">
+		<e:Label text="石头剪刀布" y="112.4" size="60" horizontalCenter="0" textColor="0x000000"/>
+		<e:Label id="lbGuess" text="" y="687" textColor="0xff0000" size="60" horizontalCenter="0"/>
+		<e:Label id="lbLv" text="当前等级：筑基" y="207" size="60" horizontalCenter="0" textColor="0xff00a9"/>
+		<e:Label id="lbDesc" text="注：每赢一局升一级，升到天仙即可羽化飞升，飞升后会有惊喜哦，加油吧！骚年！" y="299" size="30" horizontalCenter="0" width="596" textAlign="left" textColor="0xff8e00"/>
+		<e:Label id="lbTime" text="通关时间：" y="378" size="30" horizontalCenter="0" width="596" textAlign="center" textColor="0xef0b50"/>
+		<e:Label text="你" y="450" size="30" textAlign="center" x="184" textColor="0xff8e00"/>
+		<e:Label text="对手" y="450" size="30" textAlign="center" x="513" textColor="0xff8e00"/>
+		<e:Label text="请选择你想出的：" y="803" size="30" textAlign="center" x="15" textColor="0xff8e00"/>
+		<e:Image id="imgMe" source="bu_png" x="96.97" y="474.31"/>
+		<e:Image id="imgOther" source="bu_png" x="437.27" y="474.31"/>
+		<e:Image id="imgSelect0" x="60" y="813" source="shitou_png"/>
+		<e:Image id="imgSelect1" y="813" x="260" source="jiandao_png"/>
+		<e:Image id="imgSelect2" source="bu_png" x="460" y="813"/>
+		<e:Button id="btnStart" label="开始" y="1061.45" horizontalCenter="0" width="252" height="72"/>
+	</e:Group>
+</e:Skin>

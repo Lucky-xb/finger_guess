@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="720" height="1080" xmlns:e="http://ns.egret.com/eui">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="c_9g_a32_png" scale9Grid="32,28,4,3" width="388" height="235"/>
+		<e:Image y="151" source="icon14_png" horizontalCenter="0"/>
+		<e:Label text="恭喜您！骚年！今天是飞升的最后一天了，v我50，我带你羽化飞升，渡劫成仙！" y="35" textColor="0x53ea17" width="362" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>
