@@ -1,2 +1,2 @@
 # finger_guess
-A finger guess game
+一款石头剪刀布游戏，其中包含白鹭项目和生成的微信小游戏项目
